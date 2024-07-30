@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <img src="/portpolio/image/lit.png" alt="logo" id="logo">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <img src="/portpolio/image/i.jpg" alt="little">
+        </div>
+
+        <div class="hero-content">
+            <h1>Hello,<br> It's Me Little</h1>
+            <h3>I'm a <span class="highlight">Frontend Developer</span></h3>
+            <p>I strive to create  usable and polished product through pasionate and delibrate design</p>
+            <div class="social-links">
+                <a href="#"><img src="icon-whatsapp.png" alt="Whatsapp"></a>
+                <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="icon-github.png" alt="GitHub"></a>
+            </div>
+            <!-- <button class="btn">Download CV</button> -->
+        </div>
+       
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h1>Hello, I'm</h1>
+                <h2>Amina Sabo Abdul</h2>
+                <h3>And I'm a <span class="highlight">Frontend Developer/ Enterprenuer/Data Science Student</span></h3>
+                <p> I'm a student of Computer Science in Nigeria, looking forward to dive deep in to the field.
+                    I work to create innovative solutions that inspire and foster memorable relationships between brand and client.
+                    I strive to create  usable and polished product through pasionate and delibrate design. <br>
+                    I find joy in spending time we family and friends as well as inspire and educate others.</p>
+                </div>
+            <div class="about-image">
+                <img src="/portpolio/image/i2.jpg" alt="About Image">
+            </div>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/portpolio/image/achi.jpg" alt="About Image">
+            </div>
+            <div class="about-text">
+                <h2>Achievement</h2>
+                <h1><span class="highlight">Alhamdulillah</span></h1>
+                <p> I gain more exprience knowledge ,skills,friends as we as great mentors throughout the process whom i many sick help from any moment i feel am stuck not necessirily when i have alot of bugs ,they help  me out alot.I appreciate them May the Almighty Allah reward them Aboundantly Amin.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-content">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 10%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 45%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Excel</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 65%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>My Portfolio</h2>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="/portpolio/image/ecom.jpg" alt="Project 1">
+                <h3><a href="#">E-Commerce Website</a></h3>
+                <p>Short description of the project.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/portpolio/image/cbt.jpg" alt="Project 2">
+                <h3><a href="#">CBT App</a></h3>
+                <p>It's an app that let Student take test..</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/portpolio/image/face.jpg" alt="Project 3">
+                <h3><a href="#">Face Recognition</a> </h3>
+                <p>It's a mini project that recognize individuals by face..</p>
+                
+            </div>
+            <div class="portfolio-item">
+                <img src="/portpolio/image/result.jpg" alt="Project 4">
+                <h3><a href="#"></a>Result Processing System</h3>
+                <p>How result are being compiled</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/portpolio/image/id.jpg" alt="Project 5">
+                <h3><a href="#">ID Card Processing</a></h3>
+                <p>How id Card are generated</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="/portpolio/image/report card.jpg" alt="Project 6">
+                <h3><a href="#">Report Card Authenticastion</a></h3>
+                <p>To know if student report sheet is genue</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Little Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
